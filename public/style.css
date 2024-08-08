@@ -4,7 +4,9 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(135deg, #ff0077, #ffbb00);
+    background-image: url(https://c.wallhere.com/photos/92/72/landscape_pixel_art_rainforest-1380085.jpg!d);
+    background-repeat: no-repeat;
+    background-size: 100%;
     font-family: 'Arial', sans-serif;
 }
 
