@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Snake</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="score-container">
+        <h2 id="score"></h2>
+    </div>
+    <div id="game-container">
+        <canvas id="game-canvas"></canvas>
+        <div id="difficulty-menu">
+            <h2>Selecciona la dificultad</h2>
+            <button class="difficulty-button" data-speed="100">Fácil</button>
+            <button class="difficulty-button" data-speed="50">Normal</button>
+            <button class="difficulty-button" data-speed="25">Difícil</button>
+        </div>
+        <div id="game-over" class="hidden">
+            <h1>¡Game Over!</h1>
+            <button id="restart-button">Intenta de nuevo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
